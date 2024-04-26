@@ -1,0 +1,11 @@
+alert("this is the alert system");
+let firstName=prompt("Enter your name");
+let secondName=prompt("Enter your roll no");
+let thirdName=prompt("Enter your college");
+let fourthName=prompt("Enter your fathers name");
+let fifthName=prompt("Enter your mother name");
+console.log(firstName);
+console.log(secondName);
+console.log(thirdName);
+console.log(fourthName);
+console.log(fifthName);
