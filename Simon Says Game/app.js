@@ -24,7 +24,7 @@ function gameFlash(btn) {
     btn.classList.add("flash");
     setTimeout(function () {
         btn.classList.remove("flash");
-    }, 350);
+    }, 300);
 }
 
 function userFlash(btn) {
@@ -86,9 +86,9 @@ function reset() {
 
 let currentHighScore = 0;
 
-function updateHighScore(score) {
-  if (score > currentHighScore) {
-    currentHighScore = score;
+function updateHighScore(level) {
+  if (level > currentHighScore) {
+    currentHighScore = level;
     console.log("New high score: " + currentHighScore);
   } else {
     console.log("Current high score: " + currentHighScore);

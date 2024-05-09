@@ -1,41 +1,43 @@
-body{
+body {
     text-align: center;
-    background-color: darkcyan;
+}
+h1{
+    color:darkgreen;
 }
 
-.btn{
+.btn {
     height: 180px;
     width: 180px;
     border-radius: 20%;
     border: 10px solid black;
-    margin: 2rem; 
+    margin: 1rem;
 }
 
-.btn-container{
+.btn-container {
     display: flex;
     justify-content: center;
 }
 
-.yellow{
-    background-color: #f99b4f; 
+.yellow {
+    background-color: #f99b4f;
 }
 
-.red{
+.red {
     background-color: #d95980;
 }
 
-.purple{
+.purple {
     background-color: #819ff9;
 }
 
-.green{
+.green {
     background-color: #63aac0;
 }
 
-.flash{
+.flash {
     background-color: white;
 }
 
-.userflash{
+.userflash {
     background-color: green;
 }
